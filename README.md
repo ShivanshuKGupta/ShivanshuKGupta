@@ -1,11 +1,14 @@
-- 👋 Hi, I’m @ShivanshuKGupta
-- 👀 I’m interested in competitive programming and flutter development
-- 🌱 I’m currently pursuing my computer science degree from Indian Institute of Information Technology, Raichur
-- 💞️ I’m looking to collaborate on CP and flutter related repositories
-- 📫 How to reach me:-
-- My Linkedin Profile : https://www.linkedin.com/in/shivanshukgupta/
+<h1 align="center">👋 Hi, I’m Shivanshu</h1>
+<h3 align="center">Passionate software enthusiast eager to learn and create</h3>
 
-<!---
-ShivanshuKGupta/ShivanshuKGupta is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 📚 I'm currently studying at the Indian Institute of Information Technology, Raichur
+- 💻 Proficient in Flutter, Firebase, Appwrite, and more
+- 🌱 Always eager to learn and explore new technologies
+
+<h3>Connect with me</h3>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shivanshukgupta)
+[![Medium](https://img.shields.io/badge/Medium-Follow-black?style=for-the-badge&logo=medium)](https://medium.com/@shivanshukgupta)
+
+<h3>Languages and Tools</h3>
+<p align="left"> <a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="40" height="40"/> </a> </p>
