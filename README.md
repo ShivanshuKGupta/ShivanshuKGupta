@@ -1,3 +1,6 @@
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
 <h1 align="center">👋 Hi, I’m Shivanshu</h1>
 <h3 align="center">Passionate software enthusiast eager to learn and create</h3>
 
