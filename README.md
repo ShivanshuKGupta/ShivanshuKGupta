@@ -9,6 +9,7 @@
   <br>
   <img src="https://komarev.com/ghpvc/?username=ShivanshuKGupta&style=flat-square&color=blue" alt=""/>
 </div>
+
 <h1 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> Hi, I’m Shivanshu</h1>
 <h3 align="center">Passionate software enthusiast eager to learn and create</h3>
 
@@ -16,7 +17,8 @@
 - 💻 Proficient in Flutter, Firebase, Appwrite, and more
 - 🌱 Always eager to learn and explore new technologies
 
-<h3>Languages and Tools</h3>
+<h3>:hammer_and_wrench: Languages and Tools</h3>
+
 <div align="left">
   <img width="50" src="https://user-images.githubusercontent.com/25181517/186150365-da1eccce-6201-487c-8649-45e9e99435fd.png" alt="Flutter" title="Flutter"/>
   <img width="50" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png" alt="Python" title="Python"/>
@@ -40,5 +42,7 @@
   <img width="50" src="https://user-images.githubusercontent.com/25181517/193427941-9437dbbe-376f-40dc-9573-0ef5c02a26a7.png" alt="Unity" title="Unity"/>
 </div>
 
+<h3> :fire: Stats</h3>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShivanshuKGupta&layout=compact&theme=vision-friendly-dark" alt="Shivanshu Gupta" />
 <img src="https://github-readme-stats.vercel.app/api?username=ShivanshuKGupta&include_all_commits=true&count_private=true&show_icons=true&line_height=24&title_color=1363DF&icon_color=47B5FF&text_color=DFF6FF&bg_color=0,000000,130F40" alt="Shivanshu Gupta" />
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ShivanshuGupta&theme=dark&line_height=23" alt="Shivanshu Gupta" />
