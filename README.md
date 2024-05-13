@@ -11,10 +11,10 @@
 <h3>Connect with me</h3>
 
 <div id="badges">
-  <a src="https://www.linkedin.com/in/shivanshukgupta"> <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/> </a>
-  <a src="https://leetcode.com/u/C0dePhilic"><img src="https://img.shields.io/badge/Leetcode-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="Leetcode Badge"/></a>
-  <a src="https://twitter.com/shivanshukgupta"><img src="https://img.shields.io/badge/Twitter-black?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/></a>
-  <a src="https://medium.com/@shivanshukgupta"><img src="https://img.shields.io/badge/Medium-blue?style=for-the-badge&logo=medium&logoColor=white" alt="Medium Badge"/></a>
+  <a href="https://www.linkedin.com/in/shivanshukgupta"> <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/> </a>
+  <a href="https://leetcode.com/u/C0dePhilic"><img src="https://img.shields.io/badge/Leetcode-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="Leetcode Badge"/></a>
+  <a href="https://twitter.com/shivanshukgupta"><img src="https://img.shields.io/badge/Twitter-black?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/></a>
+  <a href="https://medium.com/@shivanshukgupta"><img src="https://img.shields.io/badge/Medium-blue?style=for-the-badge&logo=medium&logoColor=white" alt="Medium Badge"/></a>
 </div>
 
 <h3>Languages and Tools</h3>
