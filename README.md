@@ -44,5 +44,5 @@
 
 <h3> :fire: Stats</h3>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShivanshuKGupta&layout=compact&theme=vision-friendly-dark" alt="Shivanshu Gupta" />
-<img src="https://github-readme-stats.vercel.app/api?username=ShivanshuKGupta&include_all_commits=true&count_private=true&show_icons=true&line_height=24&title_color=1363DF&icon_color=47B5FF&text_color=DFF6FF&bg_color=0,000000,130F40" alt="Shivanshu Gupta" />
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ShivanshuGupta&theme=dark&line_height=23" alt="Shivanshu Gupta" />
+<img src="https://github-readme-stats.vercel.app/api?username=ShivanshuKGupta&include_all_commits=true&count_private=true&show_icons=true&line_height=24&title_color=1363DF&icon_color=47B5FF&text_color=DFF6FF&theme=vision-friendly-dark" alt="Shivanshu Gupta" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=ShivanshuGupta&theme=dark" alt="GitHub Streak" />
