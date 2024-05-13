@@ -42,7 +42,10 @@
   <img width="50" src="https://user-images.githubusercontent.com/25181517/193427941-9437dbbe-376f-40dc-9573-0ef5c02a26a7.png" alt="Unity" title="Unity"/>
 </div>
 
-<h3> :fire: Stats</h3>
+<div align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShivanshuKGupta&layout=compact&theme=vision-friendly-dark" alt="Shivanshu Gupta" />
+</div>
+<div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=ShivanshuKGupta&include_all_commits=true&count_private=true&show_icons=true&line_height=24&title_color=1363DF&icon_color=47B5FF&text_color=DFF6FF&theme=vision-friendly-dark" alt="Shivanshu Gupta" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=ShivanshuGupta&theme=dark" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=ShivanshuGupta&theme=highcontrast" alt="GitHub Streak" />
+</div>
