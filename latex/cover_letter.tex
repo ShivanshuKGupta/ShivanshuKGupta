@@ -1,9 +1,9 @@
-\documentclass{resume} % Use the custom resume.cls style
+\documentclass{resume}
 
 \usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Shivanshu Gupta} % Your name
+\name{Shivanshu Gupta}
 % You can merge both of these into a single line, if you do not have a website.
 % \address{(+91) 74408 24858 \\ shivanshu-gupta.web.app} 
 \address{(+91) 74408 24858 \\ \href{mailto:shivanshukgupta@gmail.com}{shivanshukgupta@gmail.com} \\ \href{https://linkedin.com/in/shivanshukgupta}{Linkedin} \\ \href{https://github.com/ShivanshuKGupta}{Github}}  %
@@ -15,19 +15,18 @@
 %----------------------------------------------------------------------------------------
 
 % \begin{rSection}{OBJECTIVE}
-
 % Eager learner seeking diverse and innovative tech skills and techniques.
-
 % \end{rSection}
+
 %----------------------------------------------------------------------------------------
 % SKILLS	
 %----------------------------------------------------------------------------------------
-\begin{rSection}{SKILLS}
 
-    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-        Programming Languages & C++, Dart, C, Python, Javascript, Typescript                                  \\
-        Technologies          & Flutter, Node.js, Express, MongoDB, Firebase, Appwrite, Supabase, Docker, Git \\
-        Familiar With         & HTML, CSS, Jaspr, Unity, Kotlin, MySQL, Strapi, Bash Script                   \\
+\begin{rSection}{SKILLS}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l }
+        Languages     & C++, Dart, C, Python, Javascript, Typescript                                                  \\
+        Technologies  & Flutter, Node.js, Express, React, Next.js, MongoDB, Firebase, Appwrite, Supabase, Docker, Git \\
+        Familiar With & HTML, CSS, Jaspr, Unity, Kotlin, MySQL, Strapi, Bash Script                                   \\
     \end{tabular}\\
 
 \end{rSection}
@@ -37,32 +36,42 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
-
     {\bf Indian Institute of Information Technology, Raichur} \hfill {Dec 2021 - Present} \\
     B. Tech Computer Science and Engineering \hfill {Current GPA: 9.1}
-
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE
 %----------------------------------------------------------------------------------------
-\begin{rSection}{EXPERIENCE}
 
+\begin{rSection}{EXPERIENCE}
     \textbf{Contract Developer at \href{https://ngispro.com/}{NGIS Pro}} \hfill Feb - July 2024\\
     \textit{Technologies: Flutter, Node.js, Python, TizenOS, WebOS, Appwrite, Supabase, Docker}
     \begin{itemize}
         \itemsep -3pt {}
-        \item \href{https://mytvpocroyal.com/lite/}{Televolution Lite}: Developed a lightweight web-based solution for cruises with low-end televisions. Designed a responsive Flutter web application with HLS streaming support, reducing server load by approximately 40\% by replacing the existing HTTP solution with real-time WebSocket connections.
-        \item \href{https://mytvpocroyal.com/web2}{Televolution}: Created a TV-based solution for \href{https://www.celebritycruises.com}{Celebrity Cruises}, utilizing Flutter for frontend development and node.js for the backend. Enhanced the cruise experience by integrating digital features directly into TV screens.
-        \item \href{https://recruitpick.com}{RecruitPick}: Developed a platform for the sports community to address talent recruitment challenges by connecting sports companies with potential recruits. The app (\href{https://play.google.com/store/apps/details?id=com.recruitpick.app.prod}{Android} \& \href{https://apps.apple.com/in/app/recruit-pick-inc/id6478814537}{iOS}) is currently in BETA and has over 100 users.
+        \item \href{https://mytvpocroyal.com/web2}{Televolution}: Led the development of a comprehensive cruise TV system with remote management, analytics, and automated infrastructure, ensuring consistent ship-to-shore synchronization.
+              \begin{itemize}
+                  \itemsep -3pt {}
+                  \item Implemented UIs using \textbf{Flutter}, \textbf{Flutter-Tizen}, \textbf{React}, \textbf{Next.js}, and \textbf{Jaspr}, with \textbf{Appwrite} as the backend.
+                  \item Built a \textbf{Node.js} middle server for seamless integration with existing systems and developed APIs/tools for third-party integrations.
+                  \item Created a custom dashboard for remote managing TVs remotely, resolving issues, logging, and generating analytics.
+                  \item Automated infrastructure setup and management using Bash and Python scripts.
+                  \item Developed a robust synchronization tool to ensure consistent data exchange between ship and shore servers.
+                  \item Achieved a \textbf{95\% reduction in network traffic overhead} by replacing HTTP polling with WebSockets.
+              \end{itemize}
+        \item \href{https://recruitpick.com}{RecruitPick}: A platform similar to Linkedin, but for the sports community.
+              \begin{itemize}
+                  \item Aimed at addressing talent recruitment challenges by connecting sports companies with potential recruits.
+                  \item The app (\href{https://play.google.com/store/apps/details?id=com.recruitpick.app.prod}{Android} \& \href{https://apps.apple.com/in/app/recruit-pick-inc/id6478814537}{iOS}) is currently in BETA and has over 150 users.
+              \end{itemize}
     \end{itemize}
 
     \textbf{SDE Intern at \href{https://stoild.in/}{Stoild Private Limited}} \hfill Dec 2023 - Feb 2024\\
     \textit{Technologies: Flutter, Node.js, Express, MongoDB, WebRTC, Socket.io, Web Scraping}
     \begin{itemize}
         \itemsep -3pt {}
-        \item Developed a live streaming and gaming application using Flutter, implementing WebRTC architecture from scratch and managing ICE candidates and SDP with a Node.js signaling server.
-        \item Designed and implemented the backend using Node.js and MongoDB, with the frontend developed in Flutter.
+        \item Developed a live streaming and gaming application using \textbf{Flutter}, implementing \textbf{WebRTC} architecture from scratch and managing ICE candidates and SDP with a \textbf{Node.js} signaling server.
+        \item Designed and implemented the backend using \textbf{Node.js} and \textbf{MongoDB}.
         \item Implemented web scraping techniques to automate data extraction tasks.
     \end{itemize}
 
@@ -81,14 +90,12 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Open Source Contribution}
-
     \textbf{\href{https://docs.gazelle-dart.dev/}{Gazelle}}: A Scalable Dart Backend Framework with the compositional power of plugins. \hfill \href{https://github.com/intales/gazelle/commits?author=ShivanshuKGupta}{PR}
     \begin{itemize}
-        \item Enhanced the CLI by adding hot-reload functionality using Dart’s VM.
+        \item Enhanced the CLI by adding hot-reload functionality using Dart's VM.
         \item Addressed cross-platform compatibility issues with the cli.
         \item Fixed numerous bugs and introduced additional CLI features to improve overall usability.
     \end{itemize}
-
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -96,29 +103,24 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{PROJECTS}
-
-    \textbf{Video Conferencing App (\href{https://github.com/ShivanshuKGupta/flutter-webrtc-app}{Github})} \textit{Technologies: Flutter, WebRTC, Node.js} \hfill June 2023
-
-    \begin{itemize}
-        \itemsep -3pt {}
-        \item A Video Conferencing app made by implementing WebRTC from scratch with a node js signaling backend.
-    \end{itemize}
+    % \textbf{Video Conferencing App (\href{https://github.com/ShivanshuKGupta/flutter-webrtc-app}{Github})} \textit{Technologies: Flutter, WebRTC, Node.js} \hfill June 2023
+    % \begin{itemize}
+    %     \itemsep -3pt {}
+    %     \item A Video Conferencing app made by implementing WebRTC from scratch with a node js signaling backend.
+    % \end{itemize}
 
     \textbf{Remote App (\href{https://github.com/ShivanshuKGupta/remote}{Github})} \textit{Technologies: Flutter, Python, UDP Sockets}\hfill May 2023
-
     \begin{itemize}
         \itemsep -3pt {}
-        \item An app to control your PC from your smartphone.
+        \item A smartphone app to fully control your PC on the same network remotely.
         \item Seamlessly control PC's keyboard and mouse from mobile.
         \item Real-time feedback via screenshots.
-
     \end{itemize}
 
     \textbf{Judge (\href{https://github.com/ShivanshuKGupta/Judge}{Github})} \textit{Technologies: Python}\hfill Apr 2023
-
     \begin{itemize}
         \itemsep -3pt {}
-        \item A command-line interface for code checking.
+        \item Coding Assignment Checker with an inbuilt plagiarism detector.
         \item Uses dolos as its plagiarism checker.
         \item Supports C, C++ and Python, but can easily be extended for other programming languages.
 
@@ -127,7 +129,7 @@
     \textbf{Steps Recorder (\href{https://github.com/ShivanshuKGupta/Steps-Recorder}{Github})} \textit{Technologies: Flutter, Python} \hfill Oct 2023
     \begin{itemize}
         \itemsep -3pt {}
-        \item Record and replay user actions, enabling efficient execution of repetitive tasks by capturing mouse clicks and keyboard inputs, thus simplifying meticulous and repetitive tasks for users.
+        \item Designed and developed a desktop app to record user actions as scripts, enabling users to edit and replay them, streamlining repetitive and meticulous tasks.
     \end{itemize}
 
     \textbf{Feedback Hub (Academic Project) (\href{https://github.com/ShivanshuKGupta/feedback_hub}{Github})} \textit{Technologies: Flutter, Strapi}\hfill Nov 2023
@@ -136,12 +138,11 @@
         \item Streamlined feedback management among students, teachers, and parents, featuring dedicated panels for courses and mark sheets, and allowing students and parents to provide feedback to teachers and vice versa, enhancing transparency within the educational ecosystem.
     \end{itemize}
 
-    \textbf{snIIITcheR (Academic Project)} \textit{Technologies: Unity, Photon Engine} \hfill May 2022
-    \begin{itemize}
-        \itemsep -3pt {}
-        \item An online multiplayer game inspired by the well-known game “Among Us” made with Unity using Photon Engine.
-    \end{itemize}
-
+    % \textbf{snIIITcheR (Academic Project)} \textit{Technologies: Unity, Photon Engine} \hfill May 2022
+    % \begin{itemize}
+    %     \itemsep -3pt {}
+    %     \item An online multiplayer game inspired by the well-known game “Among Us” made with Unity using Photon Engine.
+    % \end{itemize}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -151,9 +152,7 @@
     \begin{itemize}
         \item \textbf{\href{https://pub.dev/packages/dartmon_cli}{Dartmon}}: A nodemon like cli tool, but works using dart's VM engine for dart servers.
 
-        \item \textbf{\href{https://pub.dev/packages/fluttertrans}{Flutter\_Trans CLI}}: The cli to be used along with Flutter\_Trans package. It scans and translates all strings ending with .tr in the codebase.
-
-        \item \textbf{\href{https://pub.dev/packages/trans_flutter}{Trans\_Flutter}}: A Flutter package to be used along with trans\_flutter cli to use the generated.
+        \item \textbf{\href{https://pub.dev/packages/fluttertrans}{Flutter\_Trans CLI}}: The cli to be used along with \textbf{\href{https://pub.dev/packages/trans_flutter}{Trans\_Flutter}} package. It scans and translates all strings ending with .tr in the codebase.
 
     \end{itemize}
 \end{rSection}
