@@ -42,6 +42,8 @@ jobs:
     - name: Create GitHub Release
       id: create_release
       uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: v${{ github.run_number }}
         release_name: Cover Letter Build ${{ github.run_number }}
@@ -51,6 +53,8 @@ jobs:
 
     - name: Upload PDF to Release
       uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: latex/cover_letter.pdf
