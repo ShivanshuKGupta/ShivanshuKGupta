@@ -1,0 +1,56 @@
+name: Compile and Release Resume PDF
+
+on:
+  push:
+    paths:
+      - latex/cover_letter.tex
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Setup LaTeX Environment
+      uses: xu-cheng/latex-action@v3
+      with:
+        root_file: latex/cover_letter.tex
+        compiler: pdflatex
+
+    - name: Upload Compiled PDF as Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: cover_letter_pdf
+        path: ./latex/cover_letter.pdf
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Download Compiled PDF Artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: cover_letter_pdf
+
+    - name: Create GitHub Release
+      id: create_release
+      uses: actions/create-release@v1
+      with:
+        tag_name: v${{ github.run_number }}
+        release_name: Cover Letter Build ${{ github.run_number }}
+        draft: false
+        prerelease: false
+        body: "Automatically generated PDF release."
+
+    - name: Upload PDF to Release
+      uses: actions/upload-release-asset@v1
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: latex/cover_letter.pdf
+        asset_name: cover_letter.pdf
+        asset_content_type: application/pdf
