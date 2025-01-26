@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - latex/cover_letter.tex
+      - latex/*.cls
     branches:
       - main
 
@@ -18,14 +19,15 @@ jobs:
     - name: Setup LaTeX Environment
       uses: xu-cheng/latex-action@v3
       with:
-        root_file: latex/cover_letter.tex
+        root_file: cover_letter.tex
+        working_directory: latex
         compiler: pdflatex
 
     - name: Upload Compiled PDF as Artifact
       uses: actions/upload-artifact@v3
       with:
         name: cover_letter_pdf
-        path: ./latex/cover_letter.pdf
+        path: latex/cover_letter.pdf
 
   release:
     needs: build
