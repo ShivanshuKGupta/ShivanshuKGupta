@@ -38,6 +38,7 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: cover_letter_pdf
+        path: .
 
     - name: Create GitHub Release
       id: create_release
@@ -57,6 +58,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: latex/cover_letter.pdf
+        asset_path: cover_letter.pdf
         asset_name: cover_letter.pdf
         asset_content_type: application/pdf
