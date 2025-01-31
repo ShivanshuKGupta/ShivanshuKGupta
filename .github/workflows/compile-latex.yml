@@ -59,5 +59,5 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: cover_letter.pdf
-        asset_name: cover_letter.pdf
+        asset_name: shivanshu_gupta_resume.pdf
         asset_content_type: application/pdf
