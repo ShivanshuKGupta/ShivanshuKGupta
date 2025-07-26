@@ -14,9 +14,9 @@
 
 \begin{rSection}{SKILLS}
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l }
-        Languages     & C++, Dart, C, Python, Javascript, Typescript                                                 \\
-        Technologies  & Flutter, MERN (MongoDB, Express, React, Node.js), Next.js, Firebase, Appwrite, Supabase, Git \\
-        Familiar With & HTML, CSS, Jaspr, Unity, Kotlin, MySQL, Strapi, Bash Script, Docker                          \\
+        Languages     & C++, Dart, C, Python, Javascript, Typescript                                             \\
+        Technologies  & Flutter, MERN (MongoDB, Express, React, Node.js), Next.js, Firebase, Appwrite, Socket.io \\
+        Familiar With & gRPC, Typesense, HTML, CSS, Jaspr, Unity, Kotlin, MySQL, Bash Script, Docker             \\
     \end{tabular}\\
 \end{rSection}
 
@@ -34,22 +34,53 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{EXPERIENCE}
-    \textbf{Contract Developer at \href{https://ngispro.com/}{NGIS Pro}} \hfill Feb 2024 - Jan 2025\\
+    \textbf{Software Developer at \href{https://www.royalcaribbeangroup.com/}{Royal Caribbean Group}} \hfill Mar 2025 - Present\\
+    \textit{Technologies: Node.js, React, Next.js, Deno, MongoDB, Redis, Docker, Typesense, WebOS, gRPC}
+    \begin{itemize}
+        \itemsep -3pt {}
+        \item \textbf{Backend as a Service}: Developed a scalable, extensible, secure BaaS to accelerate time-to-market, providing,
+              \begin{itemize}
+                  \itemsep -3pt {}
+                  \item Real-time Database Event Subscriptions
+                  \item Extend the backend with Custom Serverless Functions (cron jobs, webhooks, etc.)
+                  \item A powerful query engine supporting complex queries, aggregations, and full-/partial-/fuzzy-text search
+                  \item A Frontend SDK with API documentation
+                  \item Built-in caching and flexible permissions
+                  \item Security features such as API keys, sessions, cost-based rate limiting, and more.
+              \end{itemize}
+        \item \textbf{Next-Gen TV}: Spearheaded the development of a next-generation TV system for \textbf{Royal Caribbean Group}, enabling remote fleet-wide control, real-time analytics, and infrastructure automation.
+              \begin{itemize}
+                  \itemsep -3pt
+                  \item Engineered a remotely manageable TV ecosystem with real-time analytics and automated infrastructure tailored for cruise environments.
+                  \item Built an in-house video streaming service, significantly reducing licensing costs—saving millions.
+                  \item Navigated limitations of Tizen/WebOS TVs by iteratively migrating the tech stack, optimizing for support, performance, and stability on embedded systems.
+                  \item Developed a feature-rich dashboard for remote TV management, issue resolution, logging, and analytics.
+                  \item Integrated key functionalities including ship-to-guest messaging, live/multicast video streaming, itinerary management, and connectivity with cruise operations systems.
+              \end{itemize}
+    \end{itemize}
+
+    \textbf{Contract Developer at \href{https://ngispro.com/}{NGIS Pro}} \hfill Feb 2024 - Feb 2025\\
     \textit{Technologies: Flutter, Node.js, Python, TizenOS, WebOS, Appwrite, Supabase, Docker}
     \begin{itemize}
         \itemsep -3pt {}
-        \item \href{https://mytvpocroyal.com/web2}{Televolution}: Led the development of a comprehensive cruise TV system with remote management, analytics, and automated infrastructure, ensuring consistent ship-to-shore synchronization.
+        \item \textbf{Televolution}: Led the development of a cruise TV system with remote management, analytics, and automated infrastructure, ensuring ship-to-shore synchronization.
               \begin{itemize}
                   \itemsep -3pt {}
-                  \item Implemented UIs using \textbf{Flutter}, \textbf{Flutter-Tizen}, \textbf{React}, \textbf{Next.js}, and \textbf{Jaspr}, with \textbf{Appwrite} as the backend.
-                  \item Built a \textbf{Node.js} middle server for seamless integration with existing systems and developed APIs/tools for third-party integrations.
-                  \item Created a custom dashboard for remote managing TVs remotely, resolving issues, logging, and generating analytics.
-                  \item Automated infrastructure setup and management using Bash and Python scripts.
-                  \item Developed a robust synchronization tool to ensure consistent data exchange between ship and shore servers.
-                  \item Achieved a \textbf{95\% reduction in network traffic overhead} by replacing HTTP polling with WebSockets.
+                  \item Developed UIs using \textbf{Flutter}, \textbf{Flutter-Tizen}, \textbf{React}, \textbf{Jaspr}, and finally \textbf{Next.js}, backed by \textbf{Appwrite}; built a \textbf{Node.js} middle server for third-party integrations, and created a dashboard for remote TV control, issue resolution, logging, and analytics.
+                  \item Automated infrastructure setup using Bash and Python scripts; implemented ship-to-shore sync logic and replaced HTTP polling with \textbf{WebSockets}, reducing network overhead by \textbf{95\%}.
               \end{itemize}
+              % \item Televolution: Led the development of a comprehensive cruise TV system with remote management, analytics, and automated infrastructure, ensuring consistent ship-to-shore synchronization.
+              %       \begin{itemize}
+              %           \itemsep -3pt {}
+              %           \item Developed UIs using \textbf{Flutter}, \textbf{Flutter-Tizen}, \textbf{React}, \textbf{Next.js}, and \textbf{Jaspr}, backed by \textbf{Appwrite}.
+              %           \item Built a \textbf{Node.js} middle server for system integration and third-party API/tool support.
+              %           \item Created a custom dashboard for remote TV control, issue resolution, logs, and analytics.
+              %           \item Automated infrastructure setup/management with Bash and Python scripts.
+              %           \item Developed robust data sync system between ship and shore; replaced HTTP polling with \textbf{WebSockets}, reducing network overhead by \textbf{95\%}.
+              %       \end{itemize}
         \item \href{https://recruitpick.com}{RecruitPick}: A platform similar to Linkedin, but for the sports community.
               \begin{itemize}
+                  \itemsep -3pt {}
                   \item Aimed at addressing talent recruitment challenges by connecting sports companies with potential recruits.
                   \item The app (\href{https://play.google.com/store/apps/details?id=com.recruitpick.app.prod}{Android} \& \href{https://apps.apple.com/in/app/recruit-pick-inc/id6478814537}{iOS}) is currently in BETA and has over 150 users.
               \end{itemize}
@@ -79,12 +110,12 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Open Source Contribution}
-    \textbf{\href{https://docs.gazelle-dart.dev/}{Gazelle}}: A Scalable Dart Backend Framework with the compositional power of plugins. \hfill \href{https://github.com/intales/gazelle/commits?author=ShivanshuKGupta}{PR}
-    \begin{itemize}
-        \item Enhanced the CLI by adding hot-reload functionality using Dart's VM.
-        \item Addressed cross-platform compatibility issues with the cli.
-        \item Fixed numerous bugs and introduced additional CLI features to improve overall usability.
-    \end{itemize}
+    \textbf{\href{https://docs.gazelle-dart.dev/}{Gazelle - Dart Backend Framework}}: Contributed to the CLI by implementing hot-reload using Dart VM, resolving cross-platform issues, fixing bugs, and adding features to enhance usability. \hfill \href{https://github.com/intales/gazelle/commits?author=ShivanshuKGupta}{PR}
+    % \begin{itemize}
+    % \item Enhanced the CLI by adding hot-reload functionality using Dart's VM.
+    % \item Addressed cross-platform compatibility issues with the cli.
+    % \item Fixed numerous bugs and introduced additional CLI features to improve overall usability.
+    % \end{itemize}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -103,7 +134,7 @@
     \textbf{Judge (\href{https://github.com/ShivanshuKGupta/Judge}{Github})} \textit{Technologies: Python}\hfill Apr 2023
     \begin{itemize}
         \itemsep -3pt {}
-        \item Coding Assignment Checker with an inbuilt plagiarism detector.
+        \item Coding Assignment Checker with a plagiarism detector.
         \item Uses dolos as its plagiarism checker.
         \item Supports C, C++ and Python, but can easily be extended for other programming languages.
 
@@ -115,28 +146,35 @@
         \item Designed and developed a desktop app to record user actions as scripts, enabling users to edit and replay them, streamlining repetitive and meticulous tasks.
     \end{itemize}
 
-    \textbf{Feedback Hub (Academic Project) (\href{https://github.com/ShivanshuKGupta/feedback_hub}{Github})} \textit{Technologies: Flutter, Strapi}\hfill Nov 2023
-    \begin{itemize}
-        \itemsep -3pt {}
-        \item Streamlined feedback management among students, teachers, and parents, featuring dedicated panels for courses and mark sheets, and allowing students and parents to provide feedback to teachers and vice versa, enhancing transparency within the educational ecosystem.
-    \end{itemize}
+    % \textbf{Feedback Hub (Academic Project) (\href{https://github.com/ShivanshuKGupta/feedback_hub}{Github})} \textit{Technologies: Flutter, Strapi}\hfill Nov 2023
+    % \begin{itemize}
+    %     \itemsep -3pt {}
+    %     \item Streamlined feedback management among students, teachers, and parents, featuring dedicated panels for courses and mark sheets, and allowing students and parents to provide feedback to teachers and vice versa, enhancing transparency within the educational ecosystem.
+    % \end{itemize}
 
     \textbf{snIIITcheR (Academic Project)} \textit{Technologies: Unity, Photon Engine} \hfill May 2022
     \begin{itemize}
         \itemsep -3pt {}
         \item An online multiplayer game inspired by the well-known game “Among Us” made with \textbf{Unity} \& \textbf{Photon Engine}.
     \end{itemize}
+
+    \textbf{\href{https://pub.dev/packages/trans_flutter}{Trans\_Flutter}}
+    \begin{itemize}
+        \itemsep -3pt {}
+        % \item A powerful \textbf{\href{https://pub.dev/packages/fluttertrans}{CLI}}-driven package that automates the translation of all strings in your Flutter codebase at compile time, enabling seamless internationalization with minimal effort.
+        \item A \textbf{\href{https://pub.dev/packages/fluttertrans}{CLI}} driven tool that scans your Flutter codebase, translates all strings into multiple languages at compile time, and automates internationalization with minimal setup.
+    \end{itemize}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
 % Packages
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Dart/Flutter Packages}
-    \begin{itemize}
-        \itemsep -3pt {}
-        \item \textbf{\href{https://pub.dev/packages/trans_flutter}{Trans\_Flutter}}: A powerful \textbf{\href{https://pub.dev/packages/fluttertrans}{CLI}}-driven package that automates the translation of all strings in your Flutter codebase at compile time, enabling seamless internationalization with minimal effort.
-    \end{itemize}
-\end{rSection}
+% \begin{rSection}{Dart/Flutter Packages}
+%     \begin{itemize}
+%         \itemsep -3pt {}
+% \item \textbf{\href{https://pub.dev/packages/trans_flutter}{Trans\_Flutter}}: A powerful \textbf{\href{https://pub.dev/packages/fluttertrans}{CLI}}-driven package that automates the translation of all strings in your Flutter codebase at compile time, enabling seamless internationalization with minimal effort.
+%     \end{itemize}
+% \end{rSection}
 
 %----------------------------------------------------------------------------------------
 % AWARDS AND ACHIEVEMENTS
@@ -147,8 +185,8 @@
     \begin{itemize}
         \itemsep -3pt {}
         \item Secured \href{https://drive.google.com/file/d/1BdOPAlKCXyNEZf-ujJ5Iu8lBBra77hJg/view?usp=sharing}{Rank 1} among all first-year students and 5th place institute-wide in the CodeRush Coding Challenge at IIIT Raichur.
-        \item Secured an \href{https://drive.google.com/file/d/1b_JE3MbNI2eW9xpYvC1NWCfUGChuEVBy/view?usp=sharing}{international rank of 55} across 70 countries, 70,000 schools and 1,400+ cities, and millions of participants in National Cyber Olympiad 2018 (SOF).
-        \item And again in 2019 secured an \href{https://drive.google.com/file/d/1bnRRCB6FZKDpJm0-Ogz15o56iG2QN_1t/view?usp=sharing}{international rank of 100} in the same competition.
+              % \item Secured an \href{https://drive.google.com/file/d/1b_JE3MbNI2eW9xpYvC1NWCfUGChuEVBy/view?usp=sharing}{international rank of 55} across 70 countries, 70,000 schools and 1,400+ cities, and millions of participants in National Cyber Olympiad 2018 (SOF).
+              % \item And again in 2019 secured an \href{https://drive.google.com/file/d/1bnRRCB6FZKDpJm0-Ogz15o56iG2QN_1t/view?usp=sharing}{international rank of 100} in the same competition.
     \end{itemize}
 
 \end{rSection}
@@ -157,32 +195,15 @@
 % POSITIONS OF RESPONSIBILITY
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Positions of Responsibility}
-
-    \textbf{SciTech Secretary - IIIT Raichur} \hfill March 2023 - Nov 2023
+\begin{rSection}{Positions of Responsibility - IIIT Raichur}
     \begin{itemize}
         \itemsep -3pt {}
-        \item Organized technical events and managed club activities, fostering innovation and engagement.
+        \item \textbf{SciTech Secretary} \hfill March 2023 - Nov 2023
+        \item \textbf{CodeSoc Coordinator} \hfill Oct 2022 - March 2023
+        \item \textbf{Google Developer Student Club Lead} \hfill Aug 2022 - Aug 2023
+        \item \textbf{Competitive Programming Lead - Google DSC} \hfill Aug 2022 - Aug 2023
+        \item \textbf{Teaching Assistant} \hfill Mar 2023 - Dec 2023
     \end{itemize}
-
-    \textbf{CodeSoc Coordinator - IIIT Raichur} \hfill Oct 2022 - March 2023
-    \begin{itemize}
-        \itemsep -3pt {}
-        \item Led activities for the coding club, enhancing technical skills and community engagement.
-    \end{itemize}
-
-    \textbf{Competitive Programming Lead - Google DSC IIIT Raichur} \hfill Aug 2022 - Aug 2023
-    \begin{itemize}
-        \itemsep -3pt {}
-        \item Promoted competitive programming and facilitated coding competitions.
-    \end{itemize}
-
-    \textbf{Teaching Assistant}
-    \begin{itemize}
-        \itemsep -3pt {}
-        \item Introduction to Data Structures (\textit{Mar - June 2023}), Design and Analysis of Algorithms (\textit{Aug - Nov 2023}), Introduction to Programming (\textit{Aug - Dec 2023})
-    \end{itemize}
-
 \end{rSection}
 
 \end{document}
