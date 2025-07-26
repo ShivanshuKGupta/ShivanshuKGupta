@@ -1,3 +1,5 @@
 *
 !*.cls
 !*.tex
+!.vscode/*
+!.vscode/
